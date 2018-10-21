@@ -3,8 +3,10 @@ package micronaut.gorm.service
 import grails.gorm.services.Service
 import micronaut.gorm.domain.Person
 
+import javax.inject.Singleton
 import javax.validation.constraints.NotNull
 
+@Singleton
 @Service(Person)
 interface PersonService {
 
