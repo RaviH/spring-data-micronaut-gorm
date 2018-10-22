@@ -1,0 +1,44 @@
+# rhasija ~/tmp/spring-data-micornaut-gorm/micronaut-gorm on git:master x
+$ date; bombardier -n 10000 -c 10 http://localhost:8081/micronaut/person/1
+Sun Oct 21 20:32:19 PDT 2018
+Bombarding http://localhost:8081/micronaut/person/1 with 10000 requests using 10 connections
+ 10000 / 10000 [=================================================================================================================================] 100.00% 12s
+Done!
+Statistics        Avg      Stdev        Max
+  Reqs/sec       809.00     443.00    3100.81
+  Reqs/sec      12.29ms     9.11ms    99.68ms
+  HTTP codes:
+    1xx - 0, 2xx - 10000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:   228.62KB/s
+
+# rhasija ~/tmp/spring-data-micornaut-gorm/micronaut-gorm on git:master x
+$ date; bombardier -n 10000 -c 10 http://localhost:8081/micronaut/person/1
+Sun Oct 21 20:32:49 PDT 2018
+Bombarding http://localhost:8081/micronaut/person/1 with 10000 requests using 10 connections
+ 10000 / 10000 [=================================================================================================================================] 100.00% 21s
+Done!
+Statistics        Avg      Stdev        Max
+  Reqs/sec       458.88     253.14    1288.74
+  Reqs/sec      21.57ms   110.65ms      3.13s
+  HTTP codes:
+    1xx - 0, 2xx - 10000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:   130.33KB/s
+
+# rhasija ~/tmp/spring-data-micornaut-gorm/micronaut-gorm on git:master x
+$ date; bombardier -n 10000 -c 10 http://localhost:8081/micronaut/person/1
+Sun Oct 21 20:33:30 PDT 2018
+Bombarding http://localhost:8081/micronaut/person/1 with 10000 requests using 10 connections
+ 10000 / 10000 [=================================================================================================================================] 100.00% 20s
+Done!
+Statistics        Avg      Stdev        Max
+  Reqs/sec       498.36     229.74    1177.29
+  Reqs/sec      20.10ms    56.76ms      1.02s
+  HTTP codes:
+    1xx - 0, 2xx - 10000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:   139.85KB/s
+
+# rhasija ~/tmp/spring-data-micornaut-gorm/micronaut-gorm on git:master x
+$

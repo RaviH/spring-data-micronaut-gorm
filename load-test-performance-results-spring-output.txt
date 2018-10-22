@@ -1,0 +1,68 @@
+# rhasija ~/tmp/spring-data-micornaut-gorm/spring-data-performance on git:master x
+$ date; loadtest -n 10000 -c 100 -k http://localhost:8080/spring/person/1
+Sun Oct 21 20:25:35 PDT 2018
+[Sun Oct 21 2018 20:25:35 GMT-0700 (PDT)] INFO Requests: 0 (0%), requests per second: 0, mean latency: 0 ms
+[Sun Oct 21 2018 20:25:38 GMT-0700 (PDT)] INFO
+[Sun Oct 21 2018 20:25:38 GMT-0700 (PDT)] INFO Target URL:          http://localhost:8080/spring/person/1
+[Sun Oct 21 2018 20:25:38 GMT-0700 (PDT)] INFO Max requests:        10000
+[Sun Oct 21 2018 20:25:38 GMT-0700 (PDT)] INFO Concurrency level:   100
+[Sun Oct 21 2018 20:25:38 GMT-0700 (PDT)] INFO Agent:               keepalive
+[Sun Oct 21 2018 20:25:38 GMT-0700 (PDT)] INFO
+[Sun Oct 21 2018 20:25:38 GMT-0700 (PDT)] INFO Completed requests:  10000
+[Sun Oct 21 2018 20:25:38 GMT-0700 (PDT)] INFO Total errors:        0
+[Sun Oct 21 2018 20:25:38 GMT-0700 (PDT)] INFO Total time:          3.0755498670000003 s
+[Sun Oct 21 2018 20:25:38 GMT-0700 (PDT)] INFO Requests per second: 3251
+[Sun Oct 21 2018 20:25:38 GMT-0700 (PDT)] INFO Mean latency:        30.2 ms
+[Sun Oct 21 2018 20:25:38 GMT-0700 (PDT)] INFO
+[Sun Oct 21 2018 20:25:38 GMT-0700 (PDT)] INFO Percentage of the requests served within a certain time
+[Sun Oct 21 2018 20:25:38 GMT-0700 (PDT)] INFO   50%      27 ms
+[Sun Oct 21 2018 20:25:38 GMT-0700 (PDT)] INFO   90%      34 ms
+[Sun Oct 21 2018 20:25:38 GMT-0700 (PDT)] INFO   95%      43 ms
+[Sun Oct 21 2018 20:25:38 GMT-0700 (PDT)] INFO   99%      100 ms
+[Sun Oct 21 2018 20:25:38 GMT-0700 (PDT)] INFO  100%      164 ms (longest request)
+
+# rhasija ~/tmp/spring-data-micornaut-gorm/spring-data-performance on git:master x
+$ date; loadtest -n 10000 -c 100 -k http://localhost:8080/spring/person/1
+Sun Oct 21 20:25:59 PDT 2018
+[Sun Oct 21 2018 20:25:59 GMT-0700 (PDT)] INFO Requests: 0 (0%), requests per second: 0, mean latency: 0 ms
+[Sun Oct 21 2018 20:26:02 GMT-0700 (PDT)] INFO
+[Sun Oct 21 2018 20:26:02 GMT-0700 (PDT)] INFO Target URL:          http://localhost:8080/spring/person/1
+[Sun Oct 21 2018 20:26:02 GMT-0700 (PDT)] INFO Max requests:        10000
+[Sun Oct 21 2018 20:26:02 GMT-0700 (PDT)] INFO Concurrency level:   100
+[Sun Oct 21 2018 20:26:02 GMT-0700 (PDT)] INFO Agent:               keepalive
+[Sun Oct 21 2018 20:26:02 GMT-0700 (PDT)] INFO
+[Sun Oct 21 2018 20:26:02 GMT-0700 (PDT)] INFO Completed requests:  10000
+[Sun Oct 21 2018 20:26:02 GMT-0700 (PDT)] INFO Total errors:        0
+[Sun Oct 21 2018 20:26:02 GMT-0700 (PDT)] INFO Total time:          2.71508442 s
+[Sun Oct 21 2018 20:26:02 GMT-0700 (PDT)] INFO Requests per second: 3683
+[Sun Oct 21 2018 20:26:02 GMT-0700 (PDT)] INFO Mean latency:        26.6 ms
+[Sun Oct 21 2018 20:26:02 GMT-0700 (PDT)] INFO
+[Sun Oct 21 2018 20:26:02 GMT-0700 (PDT)] INFO Percentage of the requests served within a certain time
+[Sun Oct 21 2018 20:26:02 GMT-0700 (PDT)] INFO   50%      24 ms
+[Sun Oct 21 2018 20:26:02 GMT-0700 (PDT)] INFO   90%      29 ms
+[Sun Oct 21 2018 20:26:02 GMT-0700 (PDT)] INFO   95%      32 ms
+[Sun Oct 21 2018 20:26:02 GMT-0700 (PDT)] INFO   99%      81 ms
+[Sun Oct 21 2018 20:26:02 GMT-0700 (PDT)] INFO  100%      121 ms (longest request)
+
+# rhasija ~/tmp/spring-data-micornaut-gorm/spring-data-performance on git:master x
+$ date; loadtest -n 10000 -c 100 -k http://localhost:8080/spring/person/1
+Sun Oct 21 20:26:19 PDT 2018
+[Sun Oct 21 2018 20:26:19 GMT-0700 (PDT)] INFO Requests: 0 (0%), requests per second: 0, mean latency: 0 ms
+[Sun Oct 21 2018 20:26:22 GMT-0700 (PDT)] INFO
+[Sun Oct 21 2018 20:26:22 GMT-0700 (PDT)] INFO Target URL:          http://localhost:8080/spring/person/1
+[Sun Oct 21 2018 20:26:22 GMT-0700 (PDT)] INFO Max requests:        10000
+[Sun Oct 21 2018 20:26:22 GMT-0700 (PDT)] INFO Concurrency level:   100
+[Sun Oct 21 2018 20:26:22 GMT-0700 (PDT)] INFO Agent:               keepalive
+[Sun Oct 21 2018 20:26:22 GMT-0700 (PDT)] INFO
+[Sun Oct 21 2018 20:26:22 GMT-0700 (PDT)] INFO Completed requests:  10000
+[Sun Oct 21 2018 20:26:22 GMT-0700 (PDT)] INFO Total errors:        0
+[Sun Oct 21 2018 20:26:22 GMT-0700 (PDT)] INFO Total time:          2.850913497 s
+[Sun Oct 21 2018 20:26:22 GMT-0700 (PDT)] INFO Requests per second: 3508
+[Sun Oct 21 2018 20:26:22 GMT-0700 (PDT)] INFO Mean latency:        28 ms
+[Sun Oct 21 2018 20:26:22 GMT-0700 (PDT)] INFO
+[Sun Oct 21 2018 20:26:22 GMT-0700 (PDT)] INFO Percentage of the requests served within a certain time
+[Sun Oct 21 2018 20:26:22 GMT-0700 (PDT)] INFO   50%      25 ms
+[Sun Oct 21 2018 20:26:22 GMT-0700 (PDT)] INFO   90%      34 ms
+[Sun Oct 21 2018 20:26:22 GMT-0700 (PDT)] INFO   95%      39 ms
+[Sun Oct 21 2018 20:26:22 GMT-0700 (PDT)] INFO   99%      77 ms
+[Sun Oct 21 2018 20:26:22 GMT-0700 (PDT)] INFO  100%      129 ms (longest request)

@@ -1,0 +1,71 @@
+# rhasija ~/tmp/spring-data-micornaut-gorm/micronaut-gorm on git:master x
+$ date; loadtest -n 10000 -c 100 -k http://localhost:8081/micronaut/person/1
+Sun Oct 21 20:30:51 PDT 2018
+[Sun Oct 21 2018 20:30:51 GMT-0700 (PDT)] INFO Requests: 0 (0%), requests per second: 0, mean latency: 0 ms
+[Sun Oct 21 2018 20:30:54 GMT-0700 (PDT)] INFO
+[Sun Oct 21 2018 20:30:54 GMT-0700 (PDT)] INFO Target URL:          http://localhost:8081/micronaut/person/1
+[Sun Oct 21 2018 20:30:54 GMT-0700 (PDT)] INFO Max requests:        10000
+[Sun Oct 21 2018 20:30:54 GMT-0700 (PDT)] INFO Concurrency level:   100
+[Sun Oct 21 2018 20:30:54 GMT-0700 (PDT)] INFO Agent:               keepalive
+[Sun Oct 21 2018 20:30:54 GMT-0700 (PDT)] INFO
+[Sun Oct 21 2018 20:30:54 GMT-0700 (PDT)] INFO Completed requests:  10000
+[Sun Oct 21 2018 20:30:54 GMT-0700 (PDT)] INFO Total errors:        0
+[Sun Oct 21 2018 20:30:54 GMT-0700 (PDT)] INFO Total time:          3.239630906 s
+[Sun Oct 21 2018 20:30:54 GMT-0700 (PDT)] INFO Requests per second: 3087
+[Sun Oct 21 2018 20:30:54 GMT-0700 (PDT)] INFO Mean latency:        31.8 ms
+[Sun Oct 21 2018 20:30:54 GMT-0700 (PDT)] INFO
+[Sun Oct 21 2018 20:30:54 GMT-0700 (PDT)] INFO Percentage of the requests served within a certain time
+[Sun Oct 21 2018 20:30:54 GMT-0700 (PDT)] INFO   50%      29 ms
+[Sun Oct 21 2018 20:30:54 GMT-0700 (PDT)] INFO   90%      36 ms
+[Sun Oct 21 2018 20:30:54 GMT-0700 (PDT)] INFO   95%      39 ms
+[Sun Oct 21 2018 20:30:54 GMT-0700 (PDT)] INFO   99%      87 ms
+[Sun Oct 21 2018 20:30:54 GMT-0700 (PDT)] INFO  100%      147 ms (longest request)
+
+# rhasija ~/tmp/spring-data-micornaut-gorm/micronaut-gorm on git:master x
+$ date; loadtest -n 10000 -c 100 -k http://localhost:8081/micronaut/person/1
+Sun Oct 21 20:31:14 PDT 2018
+[Sun Oct 21 2018 20:31:15 GMT-0700 (PDT)] INFO Requests: 0 (0%), requests per second: 0, mean latency: 0 ms
+[Sun Oct 21 2018 20:31:18 GMT-0700 (PDT)] INFO
+[Sun Oct 21 2018 20:31:18 GMT-0700 (PDT)] INFO Target URL:          http://localhost:8081/micronaut/person/1
+[Sun Oct 21 2018 20:31:18 GMT-0700 (PDT)] INFO Max requests:        10000
+[Sun Oct 21 2018 20:31:18 GMT-0700 (PDT)] INFO Concurrency level:   100
+[Sun Oct 21 2018 20:31:18 GMT-0700 (PDT)] INFO Agent:               keepalive
+[Sun Oct 21 2018 20:31:18 GMT-0700 (PDT)] INFO
+[Sun Oct 21 2018 20:31:18 GMT-0700 (PDT)] INFO Completed requests:  10000
+[Sun Oct 21 2018 20:31:18 GMT-0700 (PDT)] INFO Total errors:        0
+[Sun Oct 21 2018 20:31:18 GMT-0700 (PDT)] INFO Total time:          3.234817551 s
+[Sun Oct 21 2018 20:31:18 GMT-0700 (PDT)] INFO Requests per second: 3091
+[Sun Oct 21 2018 20:31:18 GMT-0700 (PDT)] INFO Mean latency:        31.8 ms
+[Sun Oct 21 2018 20:31:18 GMT-0700 (PDT)] INFO
+[Sun Oct 21 2018 20:31:18 GMT-0700 (PDT)] INFO Percentage of the requests served within a certain time
+[Sun Oct 21 2018 20:31:18 GMT-0700 (PDT)] INFO   50%      29 ms
+[Sun Oct 21 2018 20:31:18 GMT-0700 (PDT)] INFO   90%      35 ms
+[Sun Oct 21 2018 20:31:18 GMT-0700 (PDT)] INFO   95%      41 ms
+[Sun Oct 21 2018 20:31:18 GMT-0700 (PDT)] INFO   99%      88 ms
+[Sun Oct 21 2018 20:31:18 GMT-0700 (PDT)] INFO  100%      141 ms (longest request)
+
+# rhasija ~/tmp/spring-data-micornaut-gorm/micronaut-gorm on git:master x
+$ date; loadtest -n 10000 -c 100 -k http://localhost:8081/micronaut/person/1
+Sun Oct 21 20:31:36 PDT 2018
+[Sun Oct 21 2018 20:31:36 GMT-0700 (PDT)] INFO Requests: 0 (0%), requests per second: 0, mean latency: 0 ms
+[Sun Oct 21 2018 20:31:39 GMT-0700 (PDT)] INFO
+[Sun Oct 21 2018 20:31:39 GMT-0700 (PDT)] INFO Target URL:          http://localhost:8081/micronaut/person/1
+[Sun Oct 21 2018 20:31:39 GMT-0700 (PDT)] INFO Max requests:        10000
+[Sun Oct 21 2018 20:31:39 GMT-0700 (PDT)] INFO Concurrency level:   100
+[Sun Oct 21 2018 20:31:39 GMT-0700 (PDT)] INFO Agent:               keepalive
+[Sun Oct 21 2018 20:31:39 GMT-0700 (PDT)] INFO
+[Sun Oct 21 2018 20:31:39 GMT-0700 (PDT)] INFO Completed requests:  10000
+[Sun Oct 21 2018 20:31:39 GMT-0700 (PDT)] INFO Total errors:        0
+[Sun Oct 21 2018 20:31:39 GMT-0700 (PDT)] INFO Total time:          2.6173500389999997 s
+[Sun Oct 21 2018 20:31:39 GMT-0700 (PDT)] INFO Requests per second: 3821
+[Sun Oct 21 2018 20:31:39 GMT-0700 (PDT)] INFO Mean latency:        25.6 ms
+[Sun Oct 21 2018 20:31:39 GMT-0700 (PDT)] INFO
+[Sun Oct 21 2018 20:31:39 GMT-0700 (PDT)] INFO Percentage of the requests served within a certain time
+[Sun Oct 21 2018 20:31:39 GMT-0700 (PDT)] INFO   50%      24 ms
+[Sun Oct 21 2018 20:31:39 GMT-0700 (PDT)] INFO   90%      28 ms
+[Sun Oct 21 2018 20:31:39 GMT-0700 (PDT)] INFO   95%      34 ms
+[Sun Oct 21 2018 20:31:39 GMT-0700 (PDT)] INFO   99%      82 ms
+[Sun Oct 21 2018 20:31:39 GMT-0700 (PDT)] INFO  100%      125 ms (longest request)
+
+# rhasija ~/tmp/spring-data-micornaut-gorm/micronaut-gorm on git:master x
+$

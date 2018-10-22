@@ -1,0 +1,169 @@
+$ date; ab -c 10 -n 10000 http://localhost:8081/micronaut/person/1
+Sun Oct 21 20:14:11 PDT 2018
+This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+
+
+Server Software:
+Server Hostname:        localhost
+Server Port:            8081
+
+Document Path:          /micronaut/person/1
+Document Length:        81 bytes
+
+Concurrency Level:      10
+Time taken for tests:   12.281 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      2080000 bytes
+HTML transferred:       810000 bytes
+Requests per second:    814.25 [#/sec] (mean)
+Time per request:       12.281 [ms] (mean)
+Time per request:       1.228 [ms] (mean, across all concurrent requests)
+Transfer rate:          165.40 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    5   6.6      4     107
+Processing:     1    6   5.9      6     108
+Waiting:        0    4   5.1      4     105
+Total:          2   12   9.2     10     111
+
+Percentage of the requests served within a certain time (ms)
+  50%     10
+  66%     13
+  75%     14
+  80%     15
+  90%     18
+  95%     21
+  98%     24
+  99%     76
+ 100%    111 (longest request)
+
+# rhasija ~/tmp/spring-data-micornaut-gorm/micronaut-gorm on git:master o
+$ date; ab -c 10 -n 10000 http://localhost:8081/micronaut/person/1
+Sun Oct 21 20:15:13 PDT 2018
+This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+
+
+Server Software:
+Server Hostname:        localhost
+Server Port:            8081
+
+Document Path:          /micronaut/person/1
+Document Length:        81 bytes
+
+Concurrency Level:      10
+Time taken for tests:   12.629 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      2080000 bytes
+HTML transferred:       810000 bytes
+Requests per second:    791.86 [#/sec] (mean)
+Time per request:       12.629 [ms] (mean)
+Time per request:       1.263 [ms] (mean, across all concurrent requests)
+Transfer rate:          160.85 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    5   8.5      4     698
+Processing:     1    7  20.7      5     704
+Waiting:        0    5  17.9      4     701
+Total:          3   12  22.5     10     710
+
+Percentage of the requests served within a certain time (ms)
+  50%     10
+  66%     12
+  75%     13
+  80%     14
+  90%     17
+  95%     20
+  98%     24
+  99%     68
+ 100%    710 (longest request)
+
+# rhasija ~/tmp/spring-data-micornaut-gorm/micronaut-gorm on git:master o
+$ date; ab -c 10 -n 10000 http://localhost:8081/micronaut/person/1
+Sun Oct 21 20:15:47 PDT 2018
+This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+
+
+Server Software:
+Server Hostname:        localhost
+Server Port:            8081
+
+Document Path:          /micronaut/person/1
+Document Length:        81 bytes
+
+Concurrency Level:      10
+Time taken for tests:   19.164 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      2080000 bytes
+HTML transferred:       810000 bytes
+Requests per second:    521.81 [#/sec] (mean)
+Time per request:       19.164 [ms] (mean)
+Time per request:       1.916 [ms] (mean, across all concurrent requests)
+Transfer rate:          105.99 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        1    7  23.7      6     598
+Processing:     1    9  25.4      7     602
+Waiting:        0    7  24.1      5     597
+Total:          6   17  34.6     13     607
+
+Percentage of the requests served within a certain time (ms)
+  50%     13
+  66%     15
+  75%     16
+  80%     18
+  90%     21
+  95%     24
+  98%     28
+  99%     72
+ 100%    607 (longest request)

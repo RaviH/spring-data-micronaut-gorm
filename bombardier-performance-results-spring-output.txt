@@ -1,0 +1,44 @@
+# rhasija ~/tmp/spring-data-micornaut-gorm/spring-data-performance on git:master x
+$ date; bombardier -n 10000 -c 10 http://localhost:8080/spring/person/1
+Sun Oct 21 20:27:10 PDT 2018
+Bombarding http://localhost:8080/spring/person/1 with 10000 requests using 10 connections
+ 10000 / 10000 [==================================================================================================================================] 100.00% 1s
+Done!
+Statistics        Avg      Stdev        Max
+  Reqs/sec      8758.29    1229.74   11091.72
+  Reqs/sec       1.11ms   725.40us    21.66ms
+  HTTP codes:
+    1xx - 0, 2xx - 10000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     2.39MB/s
+
+# rhasija ~/tmp/spring-data-micornaut-gorm/spring-data-performance on git:master x
+$ date; bombardier -n 10000 -c 10 http://localhost:8080/spring/person/1
+Sun Oct 21 20:27:32 PDT 2018
+Bombarding http://localhost:8080/spring/person/1 with 10000 requests using 10 connections
+ 10000 / 10000 [==================================================================================================================================] 100.00% 1s
+Done!
+Statistics        Avg      Stdev        Max
+  Reqs/sec     10698.59    1346.92   12721.47
+  Reqs/sec       0.91ms   453.00us    11.16ms
+  HTTP codes:
+    1xx - 0, 2xx - 10000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     2.93MB/s
+
+# rhasija ~/tmp/spring-data-micornaut-gorm/spring-data-performance on git:master x
+$ date; bombardier -n 10000 -c 10 http://localhost:8080/spring/person/1
+Sun Oct 21 20:27:52 PDT 2018
+Bombarding http://localhost:8080/spring/person/1 with 10000 requests using 10 connections
+ 10000 / 10000 [==================================================================================================================================] 100.00% 1s
+Done!
+Statistics        Avg      Stdev        Max
+  Reqs/sec     10907.52    1259.37   13976.49
+  Reqs/sec       0.89ms   342.60us     6.94ms
+  HTTP codes:
+    1xx - 0, 2xx - 10000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     3.01MB/s
+
+# rhasija ~/tmp/spring-data-micornaut-gorm/spring-data-performance on git:master x
+$
