@@ -30,6 +30,12 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
+        <dependency>
+            <groupId>org.grails</groupId>
+            <artifactId>grails-datastore-gorm-hibernate5</artifactId>
+            <version>6.1.9.RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
 
         <dependency>
             <groupId>io.micronaut.configuration</groupId>
