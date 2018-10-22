@@ -1,1 +1,1 @@
-# spring-data-micornaut-gorm
+# spring-data-micronaut-gorm
