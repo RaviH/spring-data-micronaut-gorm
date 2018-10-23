@@ -1,0 +1,40 @@
+$ date; bombardier -n 10000 -c 10 http://localhost:8081/micronaut/person/1
+Tue Oct 23 12:12:21 PDT 2018
+Bombarding http://localhost:8081/micronaut/person/1 with 10000 request(s) using 10 connection(s)
+ 10000 / 10000 [==================================================================================================================================] 100.00% 1s
+Done!
+Statistics        Avg      Stdev        Max
+  Reqs/sec      7122.34     908.51    8947.45
+  Latency        1.40ms   634.63us    15.66ms
+  HTTP codes:
+    1xx - 0, 2xx - 10000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     1.98MB/s%
+# rhasija ~/tmp/spring-data-micornaut-gorm/micronaut-gorm on git:master o
+$ date; bombardier -n 10000 -c 10 http://localhost:8081/micronaut/person/1
+Tue Oct 23 12:12:44 PDT 2018
+Bombarding http://localhost:8081/micronaut/person/1 with 10000 request(s) using 10 connection(s)
+ 10000 / 10000 [==================================================================================================================================] 100.00% 1s
+Done!
+Statistics        Avg      Stdev        Max
+  Reqs/sec      6688.87     870.79    9457.38
+  Latency        1.50ms   648.17us    11.68ms
+  HTTP codes:
+    1xx - 0, 2xx - 10000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     1.86MB/s%
+# rhasija ~/tmp/spring-data-micornaut-gorm/micronaut-gorm on git:master o
+$ date; bombardier -n 10000 -c 10 http://localhost:8081/micronaut/person/1
+Tue Oct 23 12:13:09 PDT 2018
+Bombarding http://localhost:8081/micronaut/person/1 with 10000 request(s) using 10 connection(s)
+ 10000 / 10000 [==================================================================================================================================] 100.00% 1s
+Done!
+Statistics        Avg      Stdev        Max
+  Reqs/sec      6511.15     628.10    7411.39
+  Latency        1.53ms   559.35us    12.00ms
+  HTTP codes:
+    1xx - 0, 2xx - 10000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     1.82MB/s%
+# rhasija ~/tmp/spring-data-micornaut-gorm/micronaut-gorm on git:master o
+$
