@@ -1,0 +1,37 @@
+Tue Oct 23 08:17:51 PDT 2018
+Bombarding http://localhost:8081/micronaut/person/1 with 10000 request(s) using 10 connection(s)
+ 10000 / 10000 [==================================================================================================================================] 100.00% 1s
+Done!
+Statistics        Avg      Stdev        Max
+  Reqs/sec      8090.92     552.31   10316.21
+  Latency        1.24ms   395.92us    10.65ms
+  HTTP codes:
+    1xx - 0, 2xx - 10000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     2.43MB/s%
+
+$ date; bombardier -n 10000 -c 10 http://localhost:8081/micronaut/person/1 --header="Connection: keep-alive"
+Tue Oct 23 08:17:55 PDT 2018
+Bombarding http://localhost:8081/micronaut/person/1 with 10000 request(s) using 10 connection(s)
+ 10000 / 10000 [==================================================================================================================================] 100.00% 1s
+Done!
+Statistics        Avg      Stdev        Max
+  Reqs/sec      8096.95     727.17   10882.07
+  Latency        1.23ms   326.08us     6.64ms
+  HTTP codes:
+    1xx - 0, 2xx - 10000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     2.44MB/s%
+
+$ date; bombardier -n 10000 -c 10 http://localhost:8081/micronaut/person/1 --header="Connection: keep-alive"
+Tue Oct 23 08:17:57 PDT 2018
+Bombarding http://localhost:8081/micronaut/person/1 with 10000 request(s) using 10 connection(s)
+ 10000 / 10000 [==================================================================================================================================] 100.00% 1s
+Done!
+Statistics        Avg      Stdev        Max
+  Reqs/sec      7991.23     531.01    8846.14
+  Latency        1.24ms   319.72us     7.23ms
+  HTTP codes:
+    1xx - 0, 2xx - 10000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     2.41MB/s%
